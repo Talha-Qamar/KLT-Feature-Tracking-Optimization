@@ -1,0 +1,86 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# Compiled binaries
+example1
+example2
+example3
+example4
+example5
+libklt.a
+
+# Object files
+*.obj
+*.obj.d
+
+# Dependency files
+*.d
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Visual Studio files
+*.sln
+*.vcproj
+*.vcxproj
+*.dsp
+*.dsw
+*.suo
+*.ncb
+
+# Build output
+build/
+dist/
+*.log
+build.log
+build_nvc.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# MATLAB temporary files
+*.mex*
+*.asv
+
+# Jupyter/Notebook cache
+.ipynb_checkpoints/
+__pycache__/
+
+# Test output
+*.csv
+v4_output.txt
+timing_results.csv
+
+# Generated feature outputs
+feat*.ppm
+feat*.txt
+feat*.fl
+features.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# CUDA build artifacts
+*.fatbin
+*.cubin
+*.ptx
+
+# Python environments
+env/
+venv/
+*.pyc
+
+# Documentation build
+docs/_build/
